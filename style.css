@@ -29,9 +29,9 @@ body{
     position:absolute;
     inset:0;
     background:radial-gradient(circle at center, rgba(0,0,0,0.35), rgba(0,0,0,0.95));
+    pointer-events:none;
+    z-index:1;
 }
-
-/* CONTENT */
 
 .content{
     position:relative;
@@ -126,3 +126,4 @@ body{
     background:rgba(255,255,255,0.28);
     transform:scale(1.05);
 }
+
